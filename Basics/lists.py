@@ -23,3 +23,15 @@
 #fruits.pop(1)  # Removes and returns the item at index 1 ("orange")
 #fruits.pop()  # Removes and returns the last item in the list ("cherry")
 #fruits.remove("banana")  # Removes the first occurrence of "banana" from the list
+
+# matrix = [[i*j for j in range(1, 4)] for i in range(1, 4)]
+# print(matrix)  # Output: [[1, 2, 3], [2, 4, 6], [3, 6, 9]]
+
+numbers = [1,2,2,3,4,3,5]
+unique_numbers = []
+
+for num in numbers:
+    if num not in unique_numbers:
+        unique_numbers.append(num)
+
+print(unique_numbers)  # Output: [1, 2, 3, 4, 5]
