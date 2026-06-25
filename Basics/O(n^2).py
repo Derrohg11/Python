@@ -8,3 +8,4 @@ for num in nums:
         print(num)
         printed.add(num)
     seen.add(num)
+    
